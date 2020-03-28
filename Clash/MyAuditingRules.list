@@ -18,43 +18,28 @@ URL-REGEX,.*esu\.wiki.*
 # 惹不起.政治
 URL-REGEX,(.*\.||)(gov|12377|12315|talk.news.pts.org|creaders|zhuichaguoji|efcc.org|cyberpolice|aboluowang|tuidang|epochtimes|nytimes|zhengjian|110.qq|mingjingnews|inmediahk|xinsheng|bannedbook|ntdtv|12321|secretchina|epochweekly|cn.rfi)\.(cn|com|org|net|club|net|fr|tw|hk)
 
-
 ## From 233cloud.org
-# 屏蔽迅雷
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
 # 屏蔽Spam邮箱
-URL-REGEX,(^.*\@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168)\.(info|biz|com|de|net|org|me|la)
+(^.*\@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168)\.(info|biz|com|de|net|org|me|la)
 # 禁止BT  防止版权争议
 URL-REGEX,(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
 # 禁止 邮件滥发   防止垃圾邮件滥用
 URL-REGEX,(Subject|HELO|SMTP)
-# 屏蔽去仑力网站
+# 屏蔽去仑力网站  屏蔽轮子网站
 URL-REGEX,(.*\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net)
 # 禁止 百度高精度定位 防止IP与客户端地理位置被记录
 URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
 # 禁止360有毒服务 屏蔽360
 URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-# 银行  屏蔽金融诈骗
+# 银行  屏蔽金融诈骗  触发必死
 URL-REGEX,(.*\.||)(paypal|visa|mycard|mastercard|gov|gash|beanfun|bank).*
-# 触发必死
-URL-REGEX,(.*\.||)(mycard|mastercard).*
 # 屏蔽恶俗维基
 URL-REGEX,.*esu\wiki.*
 
-
 ## From baipiao.live
 # 禁用 BT   防止版权争议
-DOMAIN-KEYWORD,BitTorrent
 URL-REGEX,BitTorrent
 # 禁止360有毒服务   请不要使用360等相关产品
 URL-REGEX,(.*\.||)(360|360safe|so|qihoo|360totalsecurity)\.(cn|com)
-# 禁止邮件滥发  防止垃圾邮件滥用
-URL-REGEX,(Subject|HELO|SMTP)
-# 屏蔽轮子网站  屏蔽轮子网站
-URL-REGEX,(.*\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net)
-# 屏蔽百度定位  禁止百度高精度定位 防止IP与客户端地理位置被记录
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map|)\.(baidu|n\.shifen)\.com
-# 屏蔽Spam邮箱  屏蔽Spam邮箱
-URL-REGEX,(^.*\@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168)\.(info|biz|com|de|net|org|me|la)
-# 屏蔽 BT（2）  屏蔽 BT（2）
+# 屏蔽 BT（2）
 URL-REGEX,(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
