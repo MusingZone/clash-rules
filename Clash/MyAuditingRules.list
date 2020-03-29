@@ -19,8 +19,6 @@ URL-REGEX,.*esu\.wiki.*
 URL-REGEX,(.*\.||)(gov|12377|12315|talk.news.pts.org|creaders|zhuichaguoji|efcc.org|cyberpolice|aboluowang|tuidang|epochtimes|nytimes|zhengjian|110.qq|mingjingnews|inmediahk|xinsheng|bannedbook|ntdtv|12321|secretchina|epochweekly|cn.rfi)\.(cn|com|org|net|club|net|fr|tw|hk)
 
 ## From 233cloud.org
-# 屏蔽Spam邮箱
-(^.*\@)(guerrillamail|guerrillamailblock|sharklasers|grr|pokemail|spam4|bccto|chacuo|027168)\.(info|biz|com|de|net|org|me|la)
 # 禁止BT  防止版权争议
 URL-REGEX,(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)
 # 禁止 邮件滥发   防止垃圾邮件滥用
