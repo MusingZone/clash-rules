@@ -1,6 +1,6 @@
 #**********************************************************************
-# 03.28
-# 2020年3月28日11:14:41
+# 04.06
+# 2020年4月4日16:58:16
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -1747,7 +1747,6 @@
 (^|\.)toolbarqueries\.google\.com$
 (^|\.)tools\.google\.com$
 (^|\.)tools\.l\.google\.com$
-(^|\.)translate\.googleapis\.com$
 (^|\.)update\.googleapis\.com$
 (^|\.)www-googletagmanager\.l\.google\.com$
 (^|\.)www\.gstatic\.com$
@@ -1887,7 +1886,7 @@
 (^|\.)steamstat\.us$
 
 # Tencent
-(^|\.)foxmail\.com $
+(^|\.)foxmail\.com$
 (^|\.)gtimg\.com$
 (^|\.)idqqimg\.com$
 (^|\.)igamecj\.com$
@@ -1902,7 +1901,8 @@
 (^|\.)tencent-cloud\.net$
 (^|\.)tencent\.com$
 (^|\.)tencentmind\.com$
-(^|\.)tenpay\.com $
+(^|\.)tenpay\.com$
+(^|\.)wechat\.com$
 (^|\.)weixin\.com$
 (^|\.)weiyun\.com$
 
@@ -1915,6 +1915,16 @@
 # Ximalaya 喜马拉雅
 (^|\.)ximalaya\.com$
 (^|\.)xmcdn\.com$
+
+# Xunlei 迅雷
+(^|\.)00cdn\.com$
+(^|\.)88cdn\.com$
+(^|\.)kanimg\.com$
+(^|\.)kankan\.com$
+(^|\.)p2cdn\.com$
+(^|\.)sandai\.net$
+(^|\.)thundercdn\.com$
+(^|\.)xunlei\.com$
 
 # YYeTs 人人影视
 (^|\.)jstucdn\.com$
@@ -1930,9 +1940,13 @@
 (^|\.)zmzfile\.com$
 
 # Private Tracker
+(^|\.)\w*announce\w*\.\w*$
+(^|\.)\w*torrent\w*\.\w*$
+(^|\.)\w*tracker\w*\.\w*$
 (^|\.)animetorrents\.me$
 (^|\.)awesome-hd\.me$
 (^|\.)beitai\.pt$
+(^|\.)bittorrent\.com$
 (^|\.)broadcasthe\.net$
 (^|\.)chdbits\.co$
 (^|\.)classix-unlimited\.co\.uk$
@@ -1979,7 +1993,7 @@
 (^|\.)staticfile\.org$
 (^|\.)upaiyun\.com$
 
-# Acceleratedirectsites
+# AccelerateDirectSites
 (^|\.)12306\.com$
 (^|\.)17173\.com$
 (^|\.)17k\.com$
@@ -2083,8 +2097,6 @@
 (^|\.)jiathis\.com$
 (^|\.)jmstatic\.com$
 (^|\.)jumei\.com$
-(^|\.)kanimg\.com$
-(^|\.)kankan\.com$
 (^|\.)kaola\.com$
 (^|\.)knewone\.com$
 (^|\.)koowo\.com$
@@ -2151,7 +2163,6 @@
 (^|\.)rrmj\.tv$
 (^|\.)ruguoapp\.com$
 (^|\.)runoob\.com$
-(^|\.)sandai\.net$
 (^|\.)sankuai\.com$
 (^|\.)segmentfault\.com$
 (^|\.)sf-express\.com$
@@ -2202,7 +2213,6 @@
 (^|\.)xiumi\.us$
 (^|\.)xslb\.net$
 (^|\.)xueqiu\.com$
-(^|\.)xunlei\.com$
 (^|\.)yach\.me$
 (^|\.)yeepay\.com$
 (^|\.)yhd\.com$
@@ -8579,19 +8589,14 @@
 (^|\.)line\.me$
 (^|\.)line\.naver\.jp$
 (^|\.)nhncorp\.jp$
-103.2.28.0/22
-119.235.224.0/21
-119.235.232.0/23
+103.2.28.0/24
+103.2.30.0/23
+119.235.224.0/24
+119.235.232.0/24
 119.235.235.0/24
 119.235.236.0/23
-125.6.146.0/24
-125.6.149.0/24
-125.6.190.0/24
-125.209.208.0/20
-203.104.103.0/24
-203.104.128.0/20
-203.174.66.64/26
-203.174.77.0/24
+147.92.128.0/17
+203.104.128.0/19
 
 # Microsoft
 (^|\.)1drv\.com$
