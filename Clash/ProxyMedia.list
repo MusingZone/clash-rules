@@ -331,6 +331,7 @@ DOMAIN-KEYWORD,yt7.
 DOMAIN-KEYWORD,yt8.
 DOMAIN-KEYWORD,yt9.
 DOMAIN-KEYWORD,ytimg.
+DOMAIN-SUFFIX,googleusercontent.com
 
 # YouTubeMusic
 USER-AGENT,*YouTubeMusic*
