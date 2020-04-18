@@ -1,6 +1,6 @@
 #**********************************************************************
-# 04.06
-# 2020年4月4日16:58:16
+# 04.15
+# 2020年4月15日21:18:34
 # 转载需要注明版权和来源
 #
 # 屏蔽常用网站、视频、手机rom广告&运营商劫持广告&数据跟踪&开屏广告
@@ -1523,7 +1523,6 @@
 
 # MyList
 (^|\.)423down\.com$
-(^|\.)bitwarden\.com$
 (^|\.)chaipip\.com$
 (^|\.)hrtsea\.com$
 (^|\.)laomo\.me$
@@ -1663,17 +1662,30 @@
 
 # ByteDance
 (^|\.)bytedance\.com$
+(^|\.)bytedance\.net$
+(^|\.)bytedns\.net$
+(^|\.)byteimg\.com$
 (^|\.)feiliao\.com$
 (^|\.)gifshow\.com$
 (^|\.)huoshan\.com$
 (^|\.)iesdouyin\.com$
 (^|\.)ixigua\.com$
-(^|\.)kaishou\.com$
 (^|\.)kspkg\.com$
 (^|\.)pstatp\.com$
 (^|\.)snssdk\.com$
 (^|\.)toutiao\.com$
-(^|\.)yximgs\.com$
+(^|\.)toutiao13\.com$
+(^|\.)toutiaocdn\.com$
+(^|\.)toutiaocdn\.net$
+(^|\.)toutiaocloud\.com$
+(^|\.)toutiaohao\.com$
+(^|\.)toutiaohao\.net$
+(^|\.)toutiaoimg\.com$
+(^|\.)toutiaopage\.com$
+(^|\.)wukong\.com$
+(^|\.)zijieimg\.com$
+(^|\.)zjbyte\.com$
+(^|\.)zjcdn\.com$
 
 # CCTV
 (^|\.)cctv\.com$
@@ -1792,6 +1804,10 @@
 (^|\.)ksosoft\.com$
 (^|\.)ksyun\.com$
 
+# Kuaishou 快手
+(^|\.)kuaishou\.com$
+(^|\.)yximgs\.com$
+
 # Meitu
 (^|\.)meitu\.com$
 (^|\.)meitudata\.com$
@@ -1876,7 +1892,6 @@
 (^|\.)smartmailcloud\.com$
 
 # Steam
-(^|\.)steampowered\.com$
 (^|\.)steam-chat\.com$
 (^|\.)steamgames\.com$
 (^|\.)steamusercontent\.com$
@@ -8712,9 +8727,44 @@
 207.45.72.0/22
 208.75.76.0/22
 
+# OneDrive
+(^|\.)\w*1drv\w*\.\w*$
+(^|\.)\w*onedrive\w*\.\w*$
+(^|\.)\w*skydrive\w*\.\w*$
+(^|\.)livefilestore\.com$
+(^|\.)oneclient\.sfx\.ms$
+(^|\.)onedrive\.com$
+(^|\.)onedrive\.live\.com$
+(^|\.)photos\.live\.com$
+(^|\.)skydrive\.wns\.windows\.com$
+(^|\.)spoprod-a\.akamaihd\.net$
+(^|\.)storage\.live.com$
+(^|\.)storage\.msn.com$
+
 # Pixiv
 (^|\.)pixiv\.net$
 (^|\.)pximg\.net$
+
+# Porn
+(^|\.)\w*porn\w*\.\w*$
+(^|\.)8teenxxx\.com$
+(^|\.)ahcdn\.com$
+(^|\.)bcvcdn\.com$
+(^|\.)bongacams\.com$
+(^|\.)chaturbate\.com$
+(^|\.)dditscdn\.com$
+(^|\.)livejasmin\.com$
+(^|\.)rdtcdn\.com$
+(^|\.)redtube\.com$
+(^|\.)sb-cd\.com$
+(^|\.)spankbang\.com$
+(^|\.)t66y\.com$
+(^|\.)xhamster\.com$
+(^|\.)xnxx-cdn\.com$
+(^|\.)xnxx\.com$
+(^|\.)xvideos-cdn\.com$
+(^|\.)xvideos\.com$
+(^|\.)ypncdn\.com$
 
 # ResiloSync
 (^|\.)config\.getsync\.com$

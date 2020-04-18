@@ -1,6 +1,6 @@
 #**********************************************************************
-# 03.07
-# 2020年3月7日19:36:14
+# 04.18
+# 2020年4月18日 20:28:30
 # 转载需要注明版权和来源
 # 全部规则来自GFWList 没有白名单
 #
@@ -124,7 +124,6 @@
 220.132.16.173
 
 #GFWList
-(^|\.)(.*)2\.bahamut\.com\.tw$
 (^|\.)030buy\.com$
 (^|\.)0rz\.tw$
 (^|\.)1000giri\.net$
@@ -2531,7 +2530,6 @@
 (^|\.)hkgreenradio\.org$
 (^|\.)hk\.hao123img\.com$
 (^|\.)hkheadline\.com$
-(^|\.)hkheadline\.comblog$
 (^|\.)hkhkhk\.com$
 (^|\.)hkhrc\.org\.hk$
 (^|\.)hkhrm\.org\.hk$
@@ -6061,9 +6059,44 @@
 207.45.72.0/22
 208.75.76.0/22
 
+# OneDrive
+(^|\.)\w*1drv\w*\.\w*$
+(^|\.)\w*onedrive\w*\.\w*$
+(^|\.)\w*skydrive\w*\.\w*$
+(^|\.)livefilestore\.com$
+(^|\.)oneclient\.sfx\.ms$
+(^|\.)onedrive\.com$
+(^|\.)onedrive\.live\.com$
+(^|\.)photos\.live\.com$
+(^|\.)skydrive\.wns\.windows\.com$
+(^|\.)spoprod-a\.akamaihd\.net$
+(^|\.)storage\.live.com$
+(^|\.)storage\.msn.com$
+
 # Pixiv
 (^|\.)pixiv\.net$
 (^|\.)pximg\.net$
+
+# Porn
+(^|\.)\w*porn\w*\.\w*$
+(^|\.)8teenxxx\.com$
+(^|\.)ahcdn\.com$
+(^|\.)bcvcdn\.com$
+(^|\.)bongacams\.com$
+(^|\.)chaturbate\.com$
+(^|\.)dditscdn\.com$
+(^|\.)livejasmin\.com$
+(^|\.)rdtcdn\.com$
+(^|\.)redtube\.com$
+(^|\.)sb-cd\.com$
+(^|\.)spankbang\.com$
+(^|\.)t66y\.com$
+(^|\.)xhamster\.com$
+(^|\.)xnxx-cdn\.com$
+(^|\.)xnxx\.com$
+(^|\.)xvideos-cdn\.com$
+(^|\.)xvideos\.com$
+(^|\.)ypncdn\.com$
 
 # ResiloSync
 (^|\.)config\.getsync\.com$
