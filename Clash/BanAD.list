@@ -30,7 +30,6 @@ DOMAIN-KEYWORD,pingfore
 DOMAIN-KEYWORD,socdm
 DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,tracking
-DOMAIN-KEYWORD,uedas
 DOMAIN-KEYWORD,usage
 DOMAIN-KEYWORD,wlmonitor
 DOMAIN-KEYWORD,zjtoolbar
@@ -596,6 +595,7 @@ DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,tapjoy.com
 DOMAIN-SUFFIX,tapjoyads.com
 DOMAIN-SUFFIX,trafficjunky.com
+DOMAIN-SUFFIX,trafficjunky.net
 DOMAIN-SUFFIX,tribalfusion.com
 DOMAIN-SUFFIX,turn.com
 DOMAIN-SUFFIX,vidoomy.com
