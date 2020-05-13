@@ -14,3 +14,6 @@ DOMAIN-SUFFIX,alt8-mtalk.google.com
 
 # recaptcha //试验中
 DOMAIN-SUFFIX,recaptcha.net
+
+# freenom
+DOMAIN-SUFFIX,freenom.com
