@@ -68,6 +68,9 @@ dns:
   fake-ip-filter: # fake ip 白名单列表，如果你不知道这个参数的作用，请勿修改
      - '*.lan'
      - localhost.ptlogin2.qq.com
+     - 'dns.msftncsi.com'
+     - 'www.msftncsi.com'
+     - 'www.msftconnecttest.com'
   nameserver:
      - 223.5.5.5 # 阿里DNS
      - 180.76.76.76 # 百度DNS
@@ -88,6 +91,7 @@ dns:
      geoip: true # 默认
      ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
        - 240.0.0.0/4
+       
 
 
 # 1. clash DNS 请求逻辑：
