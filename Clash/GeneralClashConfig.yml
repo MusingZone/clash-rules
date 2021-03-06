@@ -2,9 +2,11 @@
 # 配置文件需要放置在 $HOME/.config/clash/config.yml
 # 或者运行目录下的config.yml
 #---------------------------------------------------#
+# 混合端口 HTTP和SOCKS5用一个端口
+mixed-port: 7890
 
 # HTTP 代理端口
-port: 7890
+# port: 7890
 
 # SOCKS5 代理端口
 socks-port: 7891
@@ -13,16 +15,17 @@ socks-port: 7891
 # redir-port: 7892
 
 # 允许局域网的连接（可用来共享代理）
-allow-lan: false
+allow-lan: true
 
 # 仅在将allow-lan设置为true时适用
 # #"*": 绑定所有IP地址
 # #192.168.122.11: 绑定单个IPv4地址
 # #"[aaaa::a8aa:ff:fe09:57d8]": 绑定单个IPv6地址
-# bind-address: "*"
+bind-address: "*"
+ipv6: true
 
-# 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
-mode: Rule
+# 规则模式：rule（规则） / global（全局代理）/ direct（全局直连）/ script (脚本)
+# mode: rule
 
 # 设置日志输出级别 (默认级别：silent，即不输出任何内容，以避免因日志内容过大而导致程序内存溢出）。
 # 5 个级别：silent / error / warning / info / debug。级别越高日志输出量越大，越倾向于调试，若需要请自行开启。
@@ -75,6 +78,8 @@ experimental:
      #- 117.50.11.11 # ONE DNS拦截版 恶意网站拦截、广告过滤
      #- 117.50.10.10 # ONE DNS纯净版 直接返回其真实的响应结果
      #- 114.114.114.114 # 114DNS
+     #- https://dns.alidns.com/dns-query # 阿里 DoH DNS
+     #- https://doh.360.cn/dns-query # 360 DoH DNS
   #fallback:
      #- 8.8.8.8 # 谷歌DNS
      #- 1.1.1.1 # Cloudflare DNS
@@ -110,18 +115,18 @@ experimental:
 # 代理组
 # 下面这3个不要引到订阅里去 要不会出错
 # Will be ignored after profile selection
-Proxy:
-  - name: Shadowsocks
-    type: socks5
-    server: 127.0.0.1
-    port: 1080
-Proxy Group:
-  - name: Proxy
-    type: select
-    proxies:
-      - Shadowsocks
-Rule:
-  - 'MATCH,DIRECT'
+#proxies:
+#  - name: Shadowsocks
+#    type: socks5
+#    server: 127.0.0.1
+#    port: 1080
+#proxy-groups:
+#  - name: Proxy
+#    type: select
+#    proxies:
+#      - Shadowsocks
+#rules:
+#  - 'MATCH,DIRECT'
 
 # Clash for Windows
 # Proxies module latency test settings
@@ -144,7 +149,10 @@ cfw-latency-url: http://www.gstatic.com/generate_204
      #- 114.114.114.114 # 114DNS
   #experimental:
     #interface-name: WLAN
-    
+
+#自定义配置目录
+#cfw-profiles-path: 'C:\Users\Administrator\.config\clash\profiles'
+
 # 打断连接
 # Identify strategy of breaking connections after switching to a new proxy/profile/mode
 # Options for proxy: none, chain(proxy group in connection chains), all
@@ -153,14 +161,30 @@ cfw-latency-url: http://www.gstatic.com/generate_204
 cfw-conn-break-strategy:
   proxy: none # none/chain/all
   profile: true # true/false
-  mode: true # true/false
+  mode: false # true/false
 
-# 定义状态栏图标
+# 自定义状态栏图标
 #cfw-tray-icon:
 #default: .\resources\static\imgs\logo_64.png        # 默认图标
 #system-proxy-on: .\resources\static\imgs\custom.ico   # 开启系统代理后图标
 
-# 子进程
+# 自定义字体
+#cfw-font-family: "Noto Sans TC"   # 系统中存在的字体
+
+# 自定义请求头
+#cfw-http-headers:
+  #token: "123456"
+  #cfw-version: "0.9.11"
+
+# 自定义节点排序
+# 可选参数：
+#  default：按配置文件定义节点顺序
+#  latency：按节点延迟升序排列
+#  alphabet：按节点名称字母表排列
+# Sort proxies in Proxies module by default/latency/alphabet
+cfw-proxies-order: default
+
+# 子进程 启动其他应用
 # Run child process after CFW started
 # Refer: https://docs.cfw.lbyczf.com/contents/childprocess.html
 #cfw-child-process:
@@ -223,6 +247,7 @@ cfw-bypass:
   - "*.423down.com"
   - "*.bokecc.com"
   - "*.chaipip.com"
+  - "*.chinaplay.store"
   - "*.hrtsea.com"
   - "*.kaikeba.com"
   - "*.laomo.me"
@@ -369,6 +394,7 @@ cfw-bypass:
   # Douyu 斗鱼
   - "*.douyu.com"
   - "*.douyu.tv"
+  - "*.douyuscdn.com"
   - "*.douyutv.com"
   # Epic
   - "*.epicgames.com"
@@ -481,19 +507,21 @@ cfw-bypass:
   - "*.playstationnetwork.com"
   - "*.sony.com"
   - "*.sonyentertainmentnetwork.com"
-  # Spark
-  - "*.amplitude.com"
-  - "*.firebaseio.com"
-  - "*.hockeyapp.net"
-  - "*.smartmailcloud.com"
-  # Steam
-  - "*.steam-chat.com"
-  - "*.steamgames.com"
-  - "*.steamusercontent.com"
+  # SteamCN
+  - "*.csgo.wmsj.cn"
+  - "*.dl.steam.ksyna.com"
+  - "*.dota2.wmsj.cn"
+  - "*.st.dl.bscstorage.net"
+  - "*.st.dl.eccdnx.com"
+  - "*.st.dl.pinyuncloud.com"
+  - "*.steamcommunity-a.akamaihd.net"
   - "*.steamcontent.com"
-  - "*.steamstatic.com"
-  - "*.steamcdn-a.akamaihd.net"
+  - "*.steamgames.com"
+  - "*.steampowered.com.8686c.com"
   - "*.steamstat.us"
+  - "*.steamstatic.com"
+  - "*.steamusercontent.com"
+  - "*.steamuserimages-a.akamaihd.net"
   # Tencent
   - "*.foxmail.com"
   - "*.gtimg.com"
@@ -533,7 +561,10 @@ cfw-bypass:
   - "*.xunlei.com"
   # YYeTs 人人影视
   - "*.got001.com"
-  - "*.jstucdn.com"
+  - "*.p4pfile.com"
+  - "*.rrys.tv"
+  - "*.rrys2020.com"
+  - "*.yyets.com"
   - "*.zimuzu.io"
   - "*.zimuzu.tv"
   - "*.zmz001.com"
@@ -548,6 +579,7 @@ cfw-bypass:
   - "*announce*"
   - "*torrent*"
   - "*tracker*"
+  - "*.animebytes.tv"
   - "*.animetorrents.me"
   - "*.awesome-hd.me"
   - "*.beitai.pt"
@@ -592,8 +624,11 @@ cfw-bypass:
   - "*.staticfile.org"
   - "*.upaiyun.com"
   # AccelerateDirectSites
+  - "*.10010.com"
+  - "*.115.com"
   - "*.12306.com"
   - "*.17173.com"
+  - "*.178.com"
   - "*.17k.com"
   - "*.360doc.com"
   - "*.36kr.com"
@@ -667,8 +702,8 @@ cfw-bypass:
   - "*.ganjistatic1.com"
   - "*.geetest.com"
   - "*.geilicdn.com"
+  - "*.ghpym.com"
   - "*.godic.net"
-  - "*.gravatar.com"
   - "*.guazi.com"
   - "*.gwdang.com"
   - "*.gzlzfm.com"
@@ -719,6 +754,7 @@ cfw-bypass:
   - "*.meituan.com"
   - "*.meituan.net"
   - "*.meizu.com"
+  - "*.migucloud.com"
   - "*.miguvideo.com"
   - "*.mobike.com"
   - "*.mogu.com"
@@ -770,7 +806,6 @@ cfw-bypass:
   - "*.smzdm.com"
   - "*.snwx.com"
   - "*.soufunimg.com"
-  - "*.ssl-images-amazon.com"
   - "*.sspai.com"
   - "*.startssl.com"
   - "*.suning.com"
@@ -807,6 +842,7 @@ cfw-bypass:
   - "*.xiaohongshu.com"
   - "*.xiaojukeji.com"
   - "*.xinhuanet.com"
+  - "*.xip.io"
   - "*.xitek.com"
   - "*.xiumi.us"
   - "*.xslb.net"
