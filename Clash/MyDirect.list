@@ -1,5 +1,8 @@
 DOMAIN-KEYWORD,nwpu.edu.cn
 DOMAIN-SUFFIX,musing.zone
+# Hostyun
 IP-CIDR,45.14.64.41/32,no-resolve
 IP-CIDR,45.141.136.25/32,no-resolve
 IP-CIDR,45.155.222.16/32,no-resolve
+# ftp&至强
+IP-CIDR,10.13.0.0/24,no-resolve
