@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # clash-rules
-forked from ACL4SSR/ACL4SSR
+> forked from ACL4SSR/ACL4SSR
 =======
 # SSR去广告规则/GFWList规则/Clash规则碎片
 
@@ -112,4 +111,3 @@ forked from ACL4SSR/ACL4SSR
 # License		
 [![](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)
 * CC-BY-SA-4.0
->>>>>>> master
