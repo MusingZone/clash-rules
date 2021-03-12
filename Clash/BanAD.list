@@ -6,22 +6,18 @@ DOMAIN-KEYWORD,admaster
 DOMAIN-KEYWORD,adsage
 DOMAIN-KEYWORD,adsensor
 DOMAIN-KEYWORD,adservice
-DOMAIN-KEYWORD,adsh
 DOMAIN-KEYWORD,adsmogo
 DOMAIN-KEYWORD,adsrvmedia
 DOMAIN-KEYWORD,adsserving
 DOMAIN-KEYWORD,adsystem
 DOMAIN-KEYWORD,adwords
 DOMAIN-KEYWORD,analysis
-DOMAIN-KEYWORD,analytics
 DOMAIN-KEYWORD,applovin
 DOMAIN-KEYWORD,appsflyer
 DOMAIN-KEYWORD,domob
 DOMAIN-KEYWORD,duomeng
 DOMAIN-KEYWORD,dwtrack
 DOMAIN-KEYWORD,guanggao
-DOMAIN-KEYWORD,lianmeng
-DOMAIN-KEYWORD,monitor
 DOMAIN-KEYWORD,omgmta
 DOMAIN-KEYWORD,omniture
 DOMAIN-KEYWORD,openx
@@ -98,7 +94,6 @@ DOMAIN-SUFFIX,adfuture.cn
 DOMAIN-SUFFIX,adhouyi.com
 DOMAIN-SUFFIX,adinfuse.com
 DOMAIN-SUFFIX,adirects.com
-DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,adjust.io
 DOMAIN-SUFFIX,adkmob.com
 DOMAIN-SUFFIX,adlive.cn
@@ -137,7 +132,6 @@ DOMAIN-SUFFIX,ajapk.com
 DOMAIN-SUFFIX,allyes.cn
 DOMAIN-SUFFIX,allyes.com
 DOMAIN-SUFFIX,amazon-adsystem.com
-DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,analysys.cn
 DOMAIN-SUFFIX,angsrvr.com
 DOMAIN-SUFFIX,anquan.org
@@ -225,6 +219,7 @@ DOMAIN-SUFFIX,feitian001.com
 DOMAIN-SUFFIX,feixin2.com
 DOMAIN-SUFFIX,flashtalking.com
 DOMAIN-SUFFIX,fraudmetrix.cn
+DOMAIN-SUFFIX,g1.tagtic.cn
 DOMAIN-SUFFIX,gentags.net
 DOMAIN-SUFFIX,gepush.com
 DOMAIN-SUFFIX,getui.com
@@ -316,7 +311,6 @@ DOMAIN-SUFFIX,mxpnl.com
 DOMAIN-SUFFIX,myhug.cn
 DOMAIN-SUFFIX,mzy2014.com
 DOMAIN-SUFFIX,networkbench.com
-DOMAIN-SUFFIX,newrelic.com
 DOMAIN-SUFFIX,ninebox.cn
 DOMAIN-SUFFIX,ntalker.com
 DOMAIN-SUFFIX,nylalobghyhirgh.com
@@ -327,7 +321,6 @@ DOMAIN-SUFFIX,onetad.com
 DOMAIN-SUFFIX,optaim.com
 DOMAIN-SUFFIX,optimix.asia
 DOMAIN-SUFFIX,optimix.cn
-DOMAIN-SUFFIX,optimizely.com
 DOMAIN-SUFFIX,optimizelyapis.com
 DOMAIN-SUFFIX,overture.com
 DOMAIN-SUFFIX,p0y.cn
@@ -371,7 +364,6 @@ DOMAIN-SUFFIX,switchadhub.com
 DOMAIN-SUFFIX,sycbbs.com
 DOMAIN-SUFFIX,synacast.com
 DOMAIN-SUFFIX,sysdig.com
-DOMAIN-SUFFIX,tagtic.cn
 DOMAIN-SUFFIX,talkingdata.com
 DOMAIN-SUFFIX,talkingdata.net
 DOMAIN-SUFFIX,tansuotv.com
@@ -503,6 +495,7 @@ DOMAIN-SUFFIX,blismedia.com
 DOMAIN-SUFFIX,brucelead.com
 DOMAIN-SUFFIX,bttrack.com
 DOMAIN-SUFFIX,casalemedia.com
+DOMAIN-SUFFIX,celtra.com
 DOMAIN-SUFFIX,channeladvisor.com
 DOMAIN-SUFFIX,connexity.net
 DOMAIN-SUFFIX,criteo.com
@@ -532,6 +525,7 @@ DOMAIN-SUFFIX,hyperpromote.com
 DOMAIN-SUFFIX,i-mobile.co.jp
 DOMAIN-SUFFIX,imrworldwide.com
 DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,inner-active.mobi
 DOMAIN-SUFFIX,intentiq.com
 DOMAIN-SUFFIX,inter1ads.com
 DOMAIN-SUFFIX,ipredictive.com
@@ -560,6 +554,7 @@ DOMAIN-SUFFIX,mobadme.jp
 DOMAIN-SUFFIX,mobfox.com
 DOMAIN-SUFFIX,mobileadtrading.com
 DOMAIN-SUFFIX,mobilityware.com
+DOMAIN-SUFFIX,mojiva.com
 DOMAIN-SUFFIX,mookie1.com
 DOMAIN-SUFFIX,msads.net
 DOMAIN-SUFFIX,mydas.mobi
@@ -598,6 +593,7 @@ DOMAIN-SUFFIX,trafficjunky.com
 DOMAIN-SUFFIX,trafficjunky.net
 DOMAIN-SUFFIX,tribalfusion.com
 DOMAIN-SUFFIX,turn.com
+DOMAIN-SUFFIX,uberads.com
 DOMAIN-SUFFIX,vidoomy.com
 DOMAIN-SUFFIX,viglink.com
 DOMAIN-SUFFIX,voicefive.com
