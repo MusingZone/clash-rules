@@ -2,6 +2,7 @@ DOMAIN-SUFFIX,nwpu.edu.cn
 DOMAIN-SUFFIX,musing.zone
 DOMAIN-SUFFIX,musingzone.com
 DOMAIN-SUFFIX,npupt.com
+DOMAIN-SUFFIX,github1s.com
 # Hostyun
 IP-CIDR,45.14.64.41/32,no-resolve
 IP-CIDR,45.141.136.25/32,no-resolve
