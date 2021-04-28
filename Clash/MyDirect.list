@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,github1s.com
 DOMAIN-SUFFIX,bianyuan.xyz
 DOMAIN-SUFFIX,chiphell.com
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,aliyundrive.com
 # Hostyun
 IP-CIDR,45.14.64.41/32,no-resolve
 IP-CIDR,45.141.136.25/32,no-resolve
