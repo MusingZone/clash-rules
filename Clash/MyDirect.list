@@ -16,4 +16,4 @@ IP-CIDR,45.141.136.25/32,no-resolve
 # Vultr
 IP-CIDR,45.76.223.42/32,no-resolve
 IP-CIDR,149.248.44.249/32,no-resolve
-IP-CIDR,139.180.222.20,no-resolve
+IP-CIDR,139.180.222.20/32,no-resolve
