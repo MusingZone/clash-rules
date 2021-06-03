@@ -12,10 +12,10 @@ DOMAIN-SUFFIX,alicloudapi.com
 DOMAIN-SUFFIX,sustech.network
 DOMAIN-SUFFIX,lslkkyj.com
 DOMAIN-SUFFIX,bktus.com
-# Hostyun
+# Hostyun Softbank
 IP-CIDR,45.14.64.41/32,no-resolve
-IP-CIDR,45.141.136.25/32,no-resolve
 # Vultr
 IP-CIDR,45.76.223.42/32,no-resolve
 IP-CIDR,149.248.44.249/32,no-resolve
-IP-CIDR,139.180.222.20/32,no-resolve
+# Taiwan
+IP-CIDR,36.231.112.247/32,no-resolve
