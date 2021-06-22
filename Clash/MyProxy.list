@@ -19,3 +19,6 @@ DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,freenom.com
 
 DOMAIN-SUFFIX,speedtest.net
+
+# EndNote PDF
+DOMAIN-SUFFIX,kp-pdf.s3.amazonaws.com
