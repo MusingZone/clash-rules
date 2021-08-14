@@ -22,3 +22,6 @@ DOMAIN-SUFFIX,speedtest.net
 
 # EndNote PDF
 DOMAIN-SUFFIX,kp-pdf.s3.amazonaws.com
+
+# Google Play dependence
+DOMAIN-SUFFIX,ssl.gstatic.com
