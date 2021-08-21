@@ -25,3 +25,6 @@ DOMAIN-SUFFIX,kp-pdf.s3.amazonaws.com
 
 # Google Play dependence
 DOMAIN-SUFFIX,ssl.gstatic.com
+
+# notion
+DOMAIN-SUFFIX,notion.so
