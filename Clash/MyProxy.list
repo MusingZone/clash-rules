@@ -27,4 +27,4 @@ DOMAIN-SUFFIX,kp-pdf.s3.amazonaws.com
 DOMAIN-SUFFIX,ssl.gstatic.com
 
 # notion
-DOMAIN-SUFFIX,notion.so
+DOMAIN-KEYWORD,notion
